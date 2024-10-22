@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* Mobile */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+header{
+    background-color: gray;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header > div > h1 {
+    border: 1px dashed black;
+}
+
+header > nav{
+    border: 1px dashed black;
+    display: flex;
+}
+
+header > nav > a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    text-align: center;
+}
+
+footer{
+    background-color: grey;
+    text-align: center;
+    border: 1px solid black;
+    color: white;
+}
