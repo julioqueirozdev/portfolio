@@ -17,39 +17,22 @@ body{
 
 
 header{
-    background-color: gray;
     text-align: center;
     border: 1px solid black;
     padding: 10px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
 }
 
 header > h1 {
-    border: 1px dashed black;
-}
-
-header > nav{
-    border: 1px dashed black;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-end;
-}
-
-header > nav > a {
-    background-color: black;
-    color: white;
-    text-decoration: none;
     margin: 10px;
-    text-align: center;
+    border: 1px dashed black;
 }
+
+
 
 main{
-    width: 600px;
-    height: 88.6vh;
-    background-color: aqua;
+    max-width: 600px;
+    /* height: 88.6vh; */
+    border: 1px dashed black;
     display: flex;
     margin: auto;
     flex-flow: row wrap;
@@ -57,36 +40,58 @@ main{
 }
 
 main>h1{
-    display: block;
-    width: 50vw;
-    background-color: white;
-    text-align: center;
-    height: 70px;
-    padding-top: 10px;
-    margin-top: 20px;
-    /* color: white; */
+    margin: 10px;
+    border: 1px dashed black;
+    background-color: gray;
 }
 
-section#container{
-    background-color: black;
-    height: 70vh;
+#menu{
+    border: 1px dashed black;
+    margin-top: 10px;
     display: flex;
     flex-flow: row nowrap;
-    align-items: flex-start;
+    justify-content: center;
 }
 
-section#imagem{
-    background-color: lightgreen;
-    
+#menu > ul > li{
+    display: inline-flex;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px dashed black;
 }
 
-section#conteudo{
-    background-color: brown;
+#menu > ul > li:hover{
+   background-color: green;
+}
+
+
+#container{
+    border: 1px dashed black;
+    height: 66vh;
+    /* margin-top: 10px; */
+    display: flex;
+    flex-flow: row nowrap;
+    /* align-items: flex-start; */
+}
+
+#imagem{
+    border: 1px dashed rgb(207, 23, 23);
+    flex: 0 0 300px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#imagem>figcaption{
+    border: 1px dashed black;
+
+}
+
+#conteudo{
+    border: 1px dashed rgb(27, 190, 33);
 }
 
 footer{
-    background-color: grey;
+    border: 1px dashed black;
     text-align: center;
     border: 1px solid black;
-    color: white;
 }
