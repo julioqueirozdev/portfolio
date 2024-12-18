@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
@@ -23,9 +23,9 @@ div{
 .profile{
     width: 100%;
     height: 100%;
-    min-height: 88vh;
-    background: fixed var(--background-box);
-    border-top: 10px solid red;
+    /* min-height: 88vh; */
+    /* background: fixed var(--background-box); */
+    border-top: 10px solid #D98032;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,6 +59,11 @@ div{
         grid-template-rows: auto 1fr;
     }
 
+    #greetings {
+        max-height: calc(150px - 2rem);
+        width: 100%;
+      }
+
     .hero-image {
         margin-top: 0rem;
         margin-bottom: -3rem;
@@ -69,10 +74,83 @@ div{
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    gap: 1rem;
+    grid-template-rows: 1fr;
+    gap: 2rem;
+    text-align: center;
+}
+
+h1#greetings{
+    display: inline-block;
+    box-sizing: border-box;
+    width: auto;
+    text-align: center;
+    font-size: 3rem;
 }
 
 .profile-image{
     animation: 0.3s ease-in-out 0s 1 normal none running fadeIn;
+}
+
+.profile-image picture img{
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px black;
+}
+
+.skills{
+    width: 100%;
+    height: 100%;
+    /* min-height: 88vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+    margin-bottom: -2px;
+    background-color: #ffffff;
+}
+
+.skills-content{
+    text-align: center;
+    width: 100%;
+    max-width: calc(1280px + 2rem);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills-content spam{
+    display: inline-block;
+    background-color: #D98032;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.skills-content h2{
+    font-weight: bolder;
+    font-style: oblique;
+    padding: 1rem;
+}
+
+.dev-description{
+    padding: 1rem 1rem;
+}
+
+.dev-languages, .dev-tools{
+    font-weight: bold;
+    margin-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.dev-languages-list, .dev-tools-list{
+    padding-bottom: 2rem;
+}
+
+
+.skills-content ul li{
+    list-style: none;
 }
