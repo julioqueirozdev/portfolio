@@ -175,6 +175,9 @@ h1#greetings{
 }
 
 .projects-introduction-content{
+    height: 100%;
+    width: 100%;
+    max-width: calc(1280px + 2rem);
     background-color: #ffffff;
     padding: 2rem;
     display: flex;
@@ -182,6 +185,6 @@ h1#greetings{
 }
 
 .work-projects{
-    
+
 }
 
