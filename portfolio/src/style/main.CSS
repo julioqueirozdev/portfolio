@@ -216,7 +216,7 @@ h1#greetings{
     position: relative;
 }
 
-.project-img {
+.project-image {
     display: flex;
     width: 100%;
     height: auto;
@@ -229,7 +229,7 @@ h1#greetings{
     transition: 0.3s ease-in-out;
 }
 
-.project-img, .project-text {
+.project-image, .project-text {
     grid-area: 1 / 1 / -1 / -1;
     position: relative;
 }
