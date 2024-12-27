@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: var(--background-color);
+    /* background-color: var(--background-color); */
     line-height: 1.6;
 }
 
@@ -32,6 +32,7 @@ div{
     align-items: center;
     padding: 2rem 1rem;
     margin-bottom: -2px;
+    background-color: var(--background-color);
 }
 
 .profile-inner{
@@ -147,6 +148,8 @@ h1#greetings{
     justify-content: center;
     align-items: center;
     padding: 3rem 1rem;
+    background-color: var(--background-color);
+    margin-top: -7.5px;
 }
 
 .projects-introduction-content{
@@ -163,6 +166,7 @@ h1#greetings{
 .projects-introduction-content h2{
     font-size: 3rem;
     line-height: 1;
+    
 }
 
 /* card de projetos */
