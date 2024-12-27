@@ -47,38 +47,7 @@ div{
     gap: 2rem;
 }
 
-@media screen and (max-width:1200px) {
-    .profile-inner{
-        flex-direction: column-reverse;
-        gap: 0rem;
-        padding: 0rem;
-    }
 
-    .profile-text{
-        padding: 1rem;
-        grid-template-rows: auto 1fr;
-    }
-
-    #greetings {
-        max-height: calc(150px - 2rem);
-        width: 100%;
-      }
-
-    .hero-image {
-        margin-top: 0rem;
-        margin-bottom: -3rem;
-    }
-
-    .project-grid {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media screen and (max-width: 1320px) {
-    .project-grid {
-        gap: 1rem;
-    }
-}
 
 .profile-text{
     width: 100%;
@@ -196,8 +165,9 @@ h1#greetings{
     line-height: 1;
 }
 
+/* card de projetos */
 
-.projects-grid{
+.project-grid{
     margin: 0px auto 6rem;
     display: grid;
     max-width: calc(1280px + 2rem);
@@ -216,10 +186,21 @@ h1#greetings{
     position: relative;
 }
 
+.project-wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
 .project-image {
     display: flex;
     width: 100%;
     height: auto;
+    /* background-image: url(../images/projeto-android.png); */
     background-size: 100%;
     background-position: center top;
     background-repeat: no-repeat;

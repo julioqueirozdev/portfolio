@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <style>
+
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+        }
+
+        .card-container{
+            width: 500px;
+            height: 800px;
+            border: 1px dashed red;
+            align-self: center;
+            background-color: white;
+            padding: 5px;
+            margin-top: 10px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 10px;
+        }
+        .card{
+            width: 200px;
+            height: 300px;
+            border: 1px solid green;
+        }
+
+        .card img{
+            width: 100%;
+            height: fit-content;
+        }
+    </style>
+</head>
+<body>
+    <div class="card-container">
+        <div class="card">
+            <img src="../images/projeto-android.png" alt="projeto android">
+            <div class="card-copy">
+
+            </div>
+        </div>
+        <div class="card">
+
+        </div>
+        
+        <div class="card">
+
+        </div>
+    </div>
+</body>
+</html>
