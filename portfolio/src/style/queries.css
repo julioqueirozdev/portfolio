@@ -11,6 +11,8 @@
         padding: 0rem;
     }
 
+
+    
     .profile-text{
         padding: 1rem;
         grid-template-rows: auto 1fr;
@@ -21,11 +23,16 @@
         width: 100%;
       }
 
-    .hero-image {
+    .profile-image {
         margin-top: 0rem;
-        margin-bottom: -3rem;
+        /* margin-bottom: -3rem; */
     }
 
+    .profile-image picture img{
+        width: 100%;
+        height: auto;
+    }
+    
     
 }
 
