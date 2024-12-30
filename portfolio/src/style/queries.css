@@ -2,6 +2,11 @@
     .project-grid {
         gap: 1rem;
     }
+
+    #greetings {
+        font-size: 4rem;
+      }
+
 }
 
 @media screen and (max-width:1200px) {
@@ -11,8 +16,6 @@
         padding: 0rem;
     }
 
-
-    
     .profile-text{
         padding: 1rem;
         grid-template-rows: auto 1fr;
