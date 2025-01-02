@@ -286,7 +286,16 @@ footer {
     font-size: 1.5rem;
 }
 
+.footer-copy p, .footer-copy address{
+    font-size: 1em;
+}
+
 footer a {
     color: rgb(255, 255, 255);
     text-decoration: none;
+}
+
+footer a svg{
+    width: 1.5em;
+    height: 1.5em;
 }
