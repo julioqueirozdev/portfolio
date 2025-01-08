@@ -12,13 +12,13 @@ body{
     line-height: 1.6;
 }
 
-main, section{
+/* main, section{
     border: 1px dotted red;
 }
 
 div{
     border: 1px solid green;
-}
+} */
 
 .profile{
     width: 100%;
